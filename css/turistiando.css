@@ -1,0 +1,75 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.container{
+   width: 800px;
+   margin: 30px auto;
+   padding: 15px 20px;
+   background: #64C9CF;
+}
+
+.title h1{
+   font-size: 34px;
+   text-align: center;
+   color: #222;
+   margin-bottom: 8px;
+}
+
+.title p{
+   text-align: justify;
+   margin-bottom: 22px;
+}
+
+.cards{
+   display: flex;
+   align-items: center;
+   padding: 10px;
+   margin-bottom: 20px;
+   background: #FDE49C;
+}
+
+.card__title{
+   font-size: 22px;
+   background: #64C9CF;
+   padding: 0 10px;
+   margin-bottom: 8px;
+}
+
+.card__img{
+   width: 100%;
+   margin-right: 18px;
+}
+
+.card__img img{
+   width: 100%;
+   border-radius: 10px;
+}
+
+.card__info{
+   text-align: justify;
+}
+
+.museo, .catedral{
+   flex-direction: row-reverse;
+}
+
+.right__img{
+   margin-right: 0;
+   margin-left: 18px;
+}
+
+.right__title{
+   text-align: right;
+}
+
+.fuente{
+   font-size: 14px;
+}
+
+.fuente a{
+   text-decoration: none;
+   color: #035397;
+}
